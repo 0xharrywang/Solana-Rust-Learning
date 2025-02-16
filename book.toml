@@ -1,0 +1,19 @@
+[book]
+authors = ["Harry"]
+language = "zh-CN"
+multilingual = false
+src = "src"
+title = "Solana Rust Learning"
+
+[output.html]
+git-repository-url = "https://github.com/rust-lang-cn/rust-by-example-cn"
+edit-url-template = "https://github.com/rust-lang-cn/rust-by-example-cn/edit/master/{path}"
+
+
+[output.html.playpen]
+editable = true
+editor = "ace"
+
+[output.html.fold]
+# 将书籍导航展开，作为书籍目录，收缩起来不便于章节快速查找 —— 2022-01-26
+enable = false
